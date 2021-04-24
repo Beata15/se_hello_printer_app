@@ -7,5 +7,8 @@ deps:
 test:
 		PYTHONPATH=. py.test --verbose -s
 
+run:
+		python3 main.py
+
 lint:
 		flake8 hello_world test
