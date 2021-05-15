@@ -1,16 +1,16 @@
 language: python
 services:
- - docker
+  - docker
 python:
- - "3.6"
+  - "3.6"
 install:
- - make deps
+  - make deps
 script:
- - make test
- - make lint
+  - make test
+  - make lint
 after_success:
- - make docker_build
+  - make docker_build
 deploy:
   provider: heroku
-  app: https://serene-shelf-51204.herokuapp.com/
+  app: serene-shelf-51204
   api_key: ${HEROKU_API_KEY}
