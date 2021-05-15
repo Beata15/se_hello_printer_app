@@ -10,3 +10,7 @@ script:
  - make lint
 after_success:
  - make docker_build
+deploy:
+  provider: heroku
+  app: https://serene-shelf-51204.herokuapp.com/
+  api_key: ${HEROKU_API_KEY}
