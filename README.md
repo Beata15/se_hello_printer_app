@@ -3,6 +3,11 @@
 Aplikacja Dydaktyczna wyświetlająca imię i wiadomość w różnych formatach dla zajęć
 o Continuous Integration, Continuous Delivery i Continuous Deployment.
 
+[![Build Status](https://travis-ci.com/Beata15/se_hello_printer_app.svg?branch=master)](https://travis-ci.com/Beata15/se_hello_printer_app)
+
+https://app.statuscake.com/button/index.php?Track=5961949&Days=1&Design=1
+
+
 - W projekcie wykorzystamy virtual environment, dla utworzenia hermetycznego środowisko dla aplikacji:
 
   ```
